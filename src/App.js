@@ -1,25 +1,33 @@
-import logo from './logo.svg';
+
+
+import React, {useState} from 'react'
 import './App.css';
+import Loader from './component/Loader'
+
 
 function App() {
+
+  const [pageno, setPageno] = useState('');
+  const loadpage = (i)=>{
+    setPageno(i)
+    document.querySelectorAll("button")[i-1].style.background = "white"
+    if(i === 1){
+       i = 2
+    }else{
+       i = 1
+    }
+    document.querySelectorAll("button")[i-1].style.background = "skyblue"
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+        <Loader pageno={pageno} ></Loader>
+        <div className="button">
+          <button onClick={ ()=>{ loadpage(1) } }  > 1 </button>
+          <button onClick={ ()=>{ loadpage(2) } }  > 2 </button>
+        </div>
+    </>
+  )
+  
 }
 
 export default App;
