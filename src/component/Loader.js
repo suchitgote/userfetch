@@ -44,7 +44,7 @@ function Loader(props){
             </p>
         }
         if(products.loading){
-            content = <Loader ></Loader>
+            content = <h1> loading...</h1>
         }
         if(products.data){
             console.log("products.data",products.data)
@@ -62,7 +62,7 @@ function Loader(props){
         return (
             <div>
             <h1>
-                ALL DETAILS
+                ALL USERS
             </h1>
             {content}
             </div>
