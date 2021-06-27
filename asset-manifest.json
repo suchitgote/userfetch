@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/userfetch/static/css/main.154e01de.chunk.css",
-    "main.js": "/userfetch/static/js/main.ce770d06.chunk.js",
-    "main.js.map": "/userfetch/static/js/main.ce770d06.chunk.js.map",
+    "main.css": "/userfetch/static/css/main.0156657c.chunk.css",
+    "main.js": "/userfetch/static/js/main.60442146.chunk.js",
+    "main.js.map": "/userfetch/static/js/main.60442146.chunk.js.map",
     "runtime-main.js": "/userfetch/static/js/runtime-main.28e89ee7.js",
     "runtime-main.js.map": "/userfetch/static/js/runtime-main.28e89ee7.js.map",
     "static/js/2.acc1683c.chunk.js": "/userfetch/static/js/2.acc1683c.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.a579aa96.chunk.js": "/userfetch/static/js/3.a579aa96.chunk.js",
     "static/js/3.a579aa96.chunk.js.map": "/userfetch/static/js/3.a579aa96.chunk.js.map",
     "index.html": "/userfetch/index.html",
-    "static/css/main.154e01de.chunk.css.map": "/userfetch/static/css/main.154e01de.chunk.css.map",
+    "static/css/main.0156657c.chunk.css.map": "/userfetch/static/css/main.0156657c.chunk.css.map",
     "static/js/2.acc1683c.chunk.js.LICENSE.txt": "/userfetch/static/js/2.acc1683c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.28e89ee7.js",
     "static/js/2.acc1683c.chunk.js",
-    "static/css/main.154e01de.chunk.css",
-    "static/js/main.ce770d06.chunk.js"
+    "static/css/main.0156657c.chunk.css",
+    "static/js/main.60442146.chunk.js"
   ]
 }
